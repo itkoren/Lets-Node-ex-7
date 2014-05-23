@@ -53,6 +53,9 @@ dmn.run(function() {
     app.set("port", process.env.PORT || 8000);
     app.set("ip", process.env.IP || "0.0.0.0");
 
+    // Add the responseTime middleware
+    app.use(responseTime());
+
     app.use("/content", content);
 
     app.use(function(err, req, res, next){
@@ -66,8 +69,6 @@ dmn.run(function() {
             res.send(500, "Something broke!");
         }
     });
-    // Add the responseTime middleware
-    app.use(responseTime());
 
     // Create the HTTP Server
     var server = http.createServer(app).listen(app.get("port"), app.get("ip"), function () {
