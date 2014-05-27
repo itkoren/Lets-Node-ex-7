@@ -1,15 +1,15 @@
 [submodule "examples/express"]
 	path = examples/express
-	url = git@github.com:itkoren/Lets-Node-exp-express.git
+	url = https://github.com/itkoren/Lets-Node-exp-express.git
 [submodule "examples/express-app-settings"]
 	path = examples/express-app-settings
-	url = git@github.com:itkoren/Lets-Node-exp-express-app-settings.git
+	url = https://github.com/itkoren/Lets-Node-exp-express-app-settings.git
 [submodule "examples/express-routes"]
 	path = examples/express-routes
-	url = git@github.com:itkoren/Lets-Node-exp-express-routes.git
+	url = https://github.com/itkoren/Lets-Node-exp-express-routes.git
 [submodule "examples/connect-middlware"]
 	path = examples/connect-middlware
-	url = git@github.com:itkoren/Lets-Node-exp-connect-middlware.git
+	url = https://github.com/itkoren/Lets-Node-exp-connect-middlware.git
 [submodule "examples/express-serving-data"]
 	path = examples/express-serving-data
-	url = git@github.com:itkoren/Lets-Node-exp-express-serving-data.git
+	url = https://github.com/itkoren/Lets-Node-exp-express-serving-data.git
